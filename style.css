@@ -1,0 +1,82 @@
+body
+{
+    background-color: rgb(69, 25, 25);
+    color: white
+}
+
+#wrapper
+{
+    background-color: rgb(50, 48, 48);
+    margin-left: 5%;
+    margin-right: 5%;
+    width:auto; 
+    border: solid;
+    border-width: 0.2em;
+    border-color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+header
+{
+    text-align: center;
+    font-size: 2em;
+}
+
+nav
+{
+    background-color: black;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+#navList
+{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: auto;
+}
+
+.navEntry
+{
+    display: inline;
+}
+
+.navLink
+{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+.navLink:hover
+{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+}
+
+
+main
+{  
+
+}
+
+hr
+{
+    height: 2px;
+    width: 100%;
+    background-color: rgb(69, 25, 25);
+    border: solid;
+    border-width: 0.01em;
+    border-color: black;
+}
+
+footer
+{
+
+}
+
