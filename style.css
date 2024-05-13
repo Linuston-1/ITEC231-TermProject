@@ -7,8 +7,8 @@ body
 #wrapper
 {
     background-color: rgb(50, 48, 48);
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     width:auto; 
     border: solid;
     border-width: 0.2em;
@@ -28,28 +28,30 @@ nav
 
 #navList
 {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
     width: auto;
+    text-align: center;
 }
 
 .navEntry
 {
     display: inline;
+    text-align: center; 
 }
 
 .navLink
 {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
     text-decoration: none;
     color: white;
 }
 
 .navLink:hover
 {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
     text-decoration: none;
     color: white;
     background-color: gray;
@@ -58,8 +60,8 @@ nav
 
 main
 {  
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 hr
