@@ -1,7 +1,8 @@
 body
 {
     background-color: rgb(69, 25, 25);
-    color: white
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #wrapper
@@ -9,35 +10,36 @@ body
     background-color: rgb(50, 48, 48);
     margin-left: 10%;
     margin-right: 10%;
-    width:auto; 
     border: solid;
     border-width: 0.2em;
     border-color: black;
+
 }
 
 header
 {
     text-align: center;
     font-size: 2em;
+    border-bottom: solid;
+    border-color:black;
 }
 
 nav
 {
     background-color: black;
+    float:left;
+    margin-right: 2em;
 }
 
 #navList
 {
-    margin-left: 5.5%;
-    margin-right: 5.5%;
-    width: auto;
-    text-align: center;
+    text-align: center
 }
 
 .navEntry
 {
-    display: inline;
     text-align: center; 
+    display: table;
 }
 
 .navLink
@@ -46,6 +48,7 @@ nav
     padding-right: 1em;
     text-decoration: none;
     color: white;
+    
 }
 
 .navLink:hover
@@ -59,23 +62,25 @@ nav
 
 
 main
-{  
+{
+    margin-left: 5em;
     padding-left: 2em;
     padding-right: 2em;
-}
-
-hr
-{
-    height: 2px;
-    width: 100%;
-    background-color: rgb(69, 25, 25);
-    border: solid;
-    border-width: 0.01em;
-    border-color: black;
+    font-size: 20pt;
 }
 
 footer
 {
+    
+}
 
+.centered
+{
+    text-align: center;
+}
+
+.justified
+{
+    text-align: justify;
 }
 
