@@ -77,6 +77,10 @@ hr
     border-color: black;
 }
 
+iframe{
+    float: right;
+    clear: left;
+}
 footer
 {
 
