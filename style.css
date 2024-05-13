@@ -28,7 +28,7 @@ nav
     background-color: black;
     float:left;
     margin-right: 2em;
-    position: relative;
+    position: absolute;
 }
 
 #navList
