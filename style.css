@@ -14,6 +14,8 @@ body
     border: solid;
     border-width: 0.2em;
     border-color: black;
+    display: flex;
+    flex-direction: row;
 }
 
 header
@@ -30,11 +32,11 @@ nav
     float:left;
     margin-right: 2em;
     position: absolute;
-    width:70px;
+    width:50px;
     padding:10px;
 }
 footer{
-    text-align:center;}
+    text-align: center;}
 #navList
 {
     text-align: center
