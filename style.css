@@ -15,7 +15,7 @@ body
     border-width: 0.2em;
     border-color: black;
     display: flex;
-    flex-direction: row;
+
 }
 #main-content{
     flex:1;
