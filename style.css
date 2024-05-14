@@ -3,6 +3,7 @@ body
     background-color: rgb(69, 25, 25);
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    margin:0;
 }
 
 #wrapper
@@ -13,7 +14,12 @@ body
     border: solid;
     border-width: 0.2em;
     border-color: black;
+    display: flex;
+
 }
+#main-content{
+    flex:1;
+    padding:5px;}
 
 header
 {
@@ -21,16 +27,21 @@ header
     font-size: 2em;
     border-bottom: solid;
     border-color:black;
+    text-align:center;
 }
-
+h1{margin-top:0;}
 nav
 {
     background-color: black;
     float:left;
     margin-right: 2em;
     position: absolute;
+    width:50px;
+    padding:10px;
+    flex:0 0 200px;
 }
-
+footer{
+    text-align: center;}
 #navList
 {
     text-align: center
@@ -63,7 +74,7 @@ nav
 
 main
 {
-    margin-left: 5em;
+
     padding-left: 2em;
     padding-right: 2em;
     font-size: 20pt;
@@ -78,10 +89,8 @@ iframe{
     float: right;
     clear: left;
 }
-footer
-{
-    
-}
+img{float: right;
+    clear:left;}
 
 .centered
 {
