@@ -19,7 +19,7 @@ body
 }
 #main-content{
     flex:1;
-    padding:20px;}
+    padding:5px;}
 
 header
 {
@@ -27,8 +27,9 @@ header
     font-size: 2em;
     border-bottom: solid;
     border-color:black;
+    text-align:center;
 }
-
+h1{margin-top:0;}
 nav
 {
     background-color: black;
@@ -37,6 +38,7 @@ nav
     position: absolute;
     width:50px;
     padding:10px;
+    flex:0 0 200px;
 }
 footer{
     text-align: center;}
@@ -72,7 +74,7 @@ footer{
 
 main
 {
-    margin-left: 5em;
+
     padding-left: 2em;
     padding-right: 2em;
     font-size: 20pt;
@@ -82,10 +84,7 @@ iframe{
     float: right;
     clear: left;
 }
-footer
-{
-    
-}
+
 
 .centered
 {
