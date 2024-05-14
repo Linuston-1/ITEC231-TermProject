@@ -69,6 +69,11 @@ main
     font-size: 20pt;
 }
 
+.source
+{
+    color: white;
+}
+
 iframe{
     float: right;
     clear: left;
