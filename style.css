@@ -84,7 +84,8 @@ iframe{
     float: right;
     clear: left;
 }
-
+img{float: right;
+    clear:left;}
 
 .centered
 {
