@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Form on Film Censorship</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    
+        #wrapper {
+            background-color: rgb(50, 48, 48);
+            margin: 0 10%;
+            padding: 1em;
+            border: solid 0.2em black;
+        }
+        
+        fieldset {
+            border: 1px solid white;
+            margin-bottom: 1em;
+            padding: 1em;
+        }
+        legend {
+            padding: 0 10px;
+        }
+      
+    
+        label {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+        input[type="text"], select, textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 0.5em;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 0.5em;
+        }
+        input[type="submit"],input[type="reset"]{
+           
+           
+            background-color: black;
+            color:white;
+            padding: 0.5em 1em;
+       
+        }
+        
+      
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Feedback on Film Censorship</h1>
+        </header>
+        <main>
+            <form method="post" action="http://webdevbasics.net/scripts/demo.php" >
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label>Name:
+    
+                        <input type="text" id="name" name="name" required></label>
+                    <br>
+                   <label>Email:
+        
+                        <input type="text" id="email" name="email" required></label>
+                    
+                </fieldset>
 
+                <fieldset>
+                    <legend>Feedback</legend>
+                    
+                        <label for="country">Country of Interest:</label>
+                        <select id="country" name="country">
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                            <option value="uk">UK</option>
+                            <option value="iran">Iran</option>
+                        </select>
+                       
+                    <label for="opinion">How do you feel about film rating system in your country?</label>
+                        <input type="radio" id="positive" name="opinion" value="positive">
+                        <label for="positive">Positive</label>
+                        <input type="radio" id="neutral" name="opinion" value="neutral">
+                        <label for="neutral">Neutral</label>
+                        <input type="radio" id="negative" name="opinion" value="negative">
+                        <label for="negative">Negative</label>
+                   
+                        <label>How do you think film rating systems impact viewers' movie choices?(Check all that apply):</label>
+                        <input type="checkbox" id="influence" name="impact" value="influence">
+                        <label for="influence">They strongly influence viewers' movie choices</label>
+                        <input type="checkbox" id="guide" name="impact" value="guide">
+                        <label for="guide">They provide guidance but do not strongly influence</label>
+                        <input type="checkbox" id="little" name="impact" value="little">
+                        <label for="little">They have little impact on viewers' movie choices</label>
+                        <input type="checkbox" id="none" name="impact" value="none">
+                        <label for="none">They have no impact at all</label>
+                   <br>
+                        <label for="comments">Additional Comments:</label>
+                        <textarea id="comments" name="comments" maxlength="40"></textarea>
+                    
+                </fieldset>
+
+              
+                    <input type="submit">
+                    <input type="reset">
+            </input>
+            </form>
+
+        
+                <img src="/Users/lizka/Desktop/Picture for project/feedback1.png" alt="Feedback" style="width:200px; height:200px;">
+                <img src="/Users/lizka/Desktop/Picture for project/form.jpeg" alt="film censorship"style="width:200px; height:200px;">
+         
+        </main>
+        <footer>
+            <p>&copy; 2024 Censorship Feedback | <a href="sources.html" style="color:white;">Sources</a></p>
+        </footer>
+    </div>
+</body>
+</html>
