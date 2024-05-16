@@ -5,7 +5,7 @@
     <title>Feedback Form on Film Censorship</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        
+         
 
         fieldset {
             border: 1px solid white;
@@ -15,7 +15,15 @@
         legend {
             padding: 0 10px;
         }
-      
+      nav{background-color: rgb(65, 63, 63);
+    width:20%;
+padding:1em;
+}
+       .navLink{display:block;
+       text-align:center;}
+        
+      #main-content{width:80%;
+       padding:2em;}
     
         label {
             display: block;
@@ -44,29 +52,33 @@
       
     </style>
 </head>
+ 
 <body>
+   
+   
      <div class="override-flex">
     <div id="wrapper">
         
-        <nav>
-            <ul id="navList">
-                <li class="navEntry"><h4>Navigation</h4></li>
-                <li class="navEntry"><a class="navLink" href="index.html">HOME</a></li>
-                <li class="navEntry"><a class="navLink" href="usa.html">USA</a></li>
-                <li class="navEntry"><a class="navLink" href="uk.html">UK</a></li>
-                <li class="navEntry"><a class="navLink" href="canada.html">CANADA</a></li>
-                <li class="navEntry"><a class="navLink" href="iran.html">IRAN</a></li>
-                <li class="navEntry"><a class="navLink" href="sitemap.html">SITEMAP</a></li>
-                <li class="navEntry"><a class="navLink" href="form.html">FORM</a></li>
-                <li class="navEntry"><a class="navLink" href="sources.html">SOURCES</a></li>
-            </ul>
-        </nav>
-
-        <div id="main-content">
-            <header>
-                <h1>Feedback on Film Censorship</h1>
-            </header>
-            <main>
+      
+                
+                <nav>
+                    <ul id="navList">
+                        <li class="navEntry"><h4>Navigation</h4></li>
+                        <li class="navEntry"><a class="navLink" href="index.html">HOME</a></li>
+                        <li class="navEntry"><a class="navLink" href="usa.html">USA</a></li>
+                        <li class="navEntry"><a class="navLink" href="uk.html">UK</a></li>
+                        <li class="navEntry"><a class="navLink" href="canada.html">CANADA</a></li>
+                        <li class="navEntry"><a class="navLink" href="iran.html">IRAN</a></li>
+                        <li class="navEntry"><a class="navLink" href="sitemap.html">SITEMAP</a></li>
+                        <li class="navEntry"><a class="navLink" href="form.html">FORM</a></li>
+                        <li class="navEntry"><a class="navLink" href="sources.html">SOURCES</a></li>
+                    </ul>
+                </nav>
+                <div id="main-content">
+                <header>
+                    <h1>Feedback on Film Censorship</h1>
+                </header> 
+                
                 <form method="post" action="http://webdevbasics.net/scripts/demo.php" >
                     <fieldset>
                         <legend>Personal Information</legend>
@@ -108,10 +120,10 @@
                             <label for="little">They have little impact on viewers' movie choices</label>
                             <input type="checkbox" id="none" name="impact" value="none">
                             <label for="none">They have no impact at all</label>
-                    
-                                <br>
+                    <br>
                             <label for="comments">Additional Comments:</label>
                             <textarea id="comments" name="comments" maxlength="40"></textarea>
+                        
                     </fieldset>
 
                 
@@ -121,12 +133,14 @@
                 </form>
 
             
+
             
             </main>
             <footer>
                 <p>&copy; 2024 Censorship Feedback | <a href="sources.html" style="color:white;">Sources</a></p>
             </footer>
         </div>
+    </div>
     </div>
          
 </body>
