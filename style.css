@@ -35,6 +35,7 @@ nav
 footer
 {
     text-align: center;
+    font-size: 12px;
 }
 
 #navList
@@ -46,6 +47,7 @@ footer
 {
     text-align: center; 
     display: table;
+    font-size: 25px;
 }
 
 .navLink
